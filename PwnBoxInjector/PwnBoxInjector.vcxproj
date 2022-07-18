@@ -182,6 +182,9 @@
   <ItemGroup>
     <Image Include="..\mm_box.ico" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="PwnBoxInjector.aps" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

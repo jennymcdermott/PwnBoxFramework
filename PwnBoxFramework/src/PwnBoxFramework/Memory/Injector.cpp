@@ -3,6 +3,7 @@
 #include <algorithm>
 #include <WtsApi32.h>
 
+#if PWNBOX_DLL_INJECTOR
 static DWORD __stdcall Stub() { return 0; }
 namespace PwnBoxFramework
 {
@@ -199,3 +200,4 @@ namespace PwnBoxFramework
 	const std::vector<std::string>& Injector::GetProcessList() noexcept { return m_ProcList; }
 	void Injector::RefreshProcessList() noexcept { FindProcessList(); }
 }
+#endif
