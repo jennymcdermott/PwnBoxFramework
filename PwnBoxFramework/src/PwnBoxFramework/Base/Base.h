@@ -5,12 +5,10 @@
 	
 	#define PWNBOX_DLL_INJECTOR 0
 	#ifdef PWNBOX_BUILD_DLL // If you're planning on making a dll hack with this lib, define this!
-		#undef PWNBOX_DLL_INJECTOR
-		#undef PWNBOX_EXTERNAL_HACK
 		#define PWNBOX_INTERNAL_HACK 1
 		#define PWNBOX_EXTERNAL_HACK 0
 		#define PWNBOX_DLL_INJECTOR 0
-	#elif PWNBOX_DLL_INJECTOR
+	#elif not defined(PWNBOX_BUILD_DLL) and PWNBOX_DLL_INJECTOR == 1
 		#define PWNBOX_INTERNAL_HACK 0
 		#define PWNBOX_EXTERNAL_HACK 0
 	#else 

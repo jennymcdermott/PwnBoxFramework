@@ -4,7 +4,10 @@
 
 namespace PwnBoxFramework
 {
-	Engine::Engine() noexcept { }
+	Engine::Engine() noexcept 
+	{
+
+	}
 
 	void Engine::init() noexcept
 	{

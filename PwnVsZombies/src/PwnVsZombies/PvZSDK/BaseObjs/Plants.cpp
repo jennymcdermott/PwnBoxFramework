@@ -9,10 +9,10 @@ namespace PwnBoxFramework
 	{
 		m_interface = memory->GetPointerAddress(m_gameModule, { 0x868 });
 		m_pMemory.plantBaseAddr = memory->GetPointerAddress(m_interface, { 0xC4 });
-		m_pMemory.plantHealthAddr = memory->GetPointerAddress(m_pMemory.plantBaseAddr, { 0x40 });
-		m_pMemory.plantMaxHPAddr = memory->GetPointerAddress(m_pMemory.plantBaseAddr, { 0x44 });
-		m_pMemory.plantRechargeAddr = memory->GetPointerAddress(m_pMemory.plantBaseAddr, { 0x54 });
-		m_pMemory.plantCurrentCount = memory->GetPointerAddress(m_interface, { 0xD4 });
+		//m_pMemory.plantHealthAddr = memory->GetPointerAddress(m_pMemory.plantBaseAddr, { 0x40 });
+		//m_pMemory.plantMaxHPAddr = memory->GetPointerAddress(m_pMemory.plantBaseAddr, { 0x44 });
+		//m_pMemory.plantRechargeAddr = memory->GetPointerAddress(m_pMemory.plantBaseAddr, { 0x54 });
+		//m_pMemory.plantCurrentCount = memory->GetPointerAddress(m_interface, { 0xD4 });
 	}
 
 	plants::plants(const int& gameModule) noexcept :

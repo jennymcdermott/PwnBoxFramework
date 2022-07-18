@@ -27,11 +27,12 @@ int __stdcall DllMain(HMODULE hModule, DWORD fdwReason, LPVOID lpReserved)
     case DLL_THREAD_DETACH:
     case DLL_PROCESS_DETACH:
         // Perform any necessary cleanup.
+        PwnBoxFramework::memory->uninstall();
         break;
     }
     return 0;  // Successful DLL_PROCESS_ATTACH.
 }
-#elif PWNBOX_EXTERNAL_HACK || PWNBOX_DLL_INJECTOR
+#elif PWNBOX_EXTERNAL_HACK  || PWNBOX_DLL_INJECTOR and not defined(PWNBOX_BUILD_DLL)
 int __stdcall wWinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, PWSTR pCmdLine, int nCmdShow)
 {
 	auto SandBox = PwnBoxFramework::CreateApp();
