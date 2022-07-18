@@ -19,7 +19,8 @@ This is currently offering a very basic set of tools for those who are intereste
 own changes to add more functionality to the library. 
 
 For an example of how one can use this library to make a Dll Injector, see the project titled "PwnBoxInjector"
-For a dll hack, see PwnBoxDll (2022-18-07: Currently it's just empty but more will be added soon)
+For a dll hack, see the project 'PwnVsZombies', which is a reimplementation of a Plants vs Zombies internal hack made before this
+library, rewritten with PwnBoxLibrary.
 
 For more information, see PwnBoxFramework.h as to some other settings,
 as well as how to get it to compile a Dll for those who may need that.
