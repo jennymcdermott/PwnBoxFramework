@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup Label="ProjectConfigurations">
     <ProjectConfiguration Include="Debug|Win32">
@@ -24,6 +24,7 @@
     <ProjectGuid>{f2b8fe96-28d8-4246-8dc6-2e451133785f}</ProjectGuid>
     <RootNamespace>PwnBoxDll</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>PwnVsZombies</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -155,8 +156,18 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="src\PwnBox Hack.cpp" />
-    <ClCompile Include="src\PwnBox Hack\Base\AppLayer.cpp" />
+    <ClCompile Include="src\PwnVsZombies.cpp" />
+    <ClCompile Include="src\PwnVsZombies\Base\AppLayer.cpp" />
+    <ClCompile Include="src\PwnVsZombies\Hacks\InfiniteMoney.cpp" />
+    <ClCompile Include="src\PwnVsZombies\Hacks\InfiniteSun.cpp" />
+    <ClCompile Include="src\PwnVsZombies\PvZSDK\BaseObjs\Collectibles.cpp" />
+    <ClCompile Include="src\PwnVsZombies\PvZSDK\BaseObjs\Plants.cpp" />
+    <ClCompile Include="src\PwnVsZombies\PvZSDK\BaseObjs\Projectiles.cpp" />
+    <ClCompile Include="src\PwnVsZombies\PvZSDK\BaseObjs\Zombies.cpp" />
+    <ClCompile Include="src\PwnVsZombies\PvZSDK\CInterface\CInteface.cpp" />
+    <ClCompile Include="src\PwnVsZombies\PvZSDK\Engine.cpp" />
+    <ClCompile Include="src\PwnVsZombies\PvZSDK\Level\LevelManager.cpp" />
+    <ClCompile Include="src\PwnVsZombies\PvZSDK\Player.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\PwnBoxFramework\PwnBoxFramework.vcxproj">
@@ -167,7 +178,18 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="src\PwnBox Hack\Base\AppLayer.h" />
+    <ClInclude Include="src\PwnVsZombies\Base\AppLayer.h" />
+    <ClInclude Include="src\PwnVsZombies\Hacks\InfiniteMoney.h" />
+    <ClInclude Include="src\PwnVsZombies\Hacks\InfiniteSun.h" />
+    <ClInclude Include="src\PwnVsZombies\PvZSDK\BaseObjs\Collectibles.h" />
+    <ClInclude Include="src\PwnVsZombies\PvZSDK\BaseObjs\Plants.h" />
+    <ClInclude Include="src\PwnVsZombies\PvZSDK\BaseObjs\Projectiles.h" />
+    <ClInclude Include="src\PwnVsZombies\PvZSDK\BaseObjs\Zombies.h" />
+    <ClInclude Include="src\PwnVsZombies\PvZSDK\CInterface\CInteface.h" />
+    <ClInclude Include="src\PwnVsZombies\PvZSDK\Engine.h" />
+    <ClInclude Include="src\PwnVsZombies\PvZSDK\GlobalVars.h" />
+    <ClInclude Include="src\PwnVsZombies\PvZSDK\Level\LevelManager.h" />
+    <ClInclude Include="src\PwnVsZombies\PvZSDK\Player.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

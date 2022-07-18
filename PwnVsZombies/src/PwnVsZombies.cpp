@@ -1,6 +1,6 @@
 #include <PwnBoxFramework.h>
 #include <PwnBoxFramework/Base/Entrypoint.h>
-#include "PwnBox Hack/Base/AppLayer.h"
+#include "PwnVsZombies/Base/AppLayer.h"
 
 namespace PwnBoxFramework
 {

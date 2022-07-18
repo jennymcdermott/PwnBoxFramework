@@ -15,15 +15,15 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="src\PwnBox Hack.cpp">
+    <ClCompile Include="src\PwnVsZombies.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="src\PwnBox Hack\Base\AppLayer.cpp">
+    <ClCompile Include="src\PwnVsZombies\Base\AppLayer.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="src\PwnBox Hack\Base\AppLayer.h">
+    <ClInclude Include="src\PwnVsZombies\Base\AppLayer.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
