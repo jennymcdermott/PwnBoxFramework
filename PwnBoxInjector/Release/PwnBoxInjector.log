@@ -1,0 +1,30 @@
+﻿  PwnBoxInjector.cpp
+D:\source\repos\PwnBoxFramework\PwnBoxFramework\src\PwnBoxFramework\Memory\Memory.h(14,42): error C2039: 'string_view': is not a member of 'std'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\iostream(19): message : see declaration of 'std'
+D:\source\repos\PwnBoxFramework\PwnBoxFramework\src\PwnBoxFramework\Memory\Memory.h(14,54): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+D:\source\repos\PwnBoxFramework\PwnBoxFramework\src\PwnBoxFramework\Memory\Memory.h(14,54): error C2146: syntax error: missing ')' before identifier 'moduleName'
+D:\source\repos\PwnBoxFramework\PwnBoxFramework\src\PwnBoxFramework\Memory\Memory.h(14,54): error C3646: 'moduleName': unknown override specifier
+D:\source\repos\PwnBoxFramework\PwnBoxFramework\src\PwnBoxFramework\Memory\Memory.h(14,64): error C2059: syntax error: ')'
+D:\source\repos\PwnBoxFramework\PwnBoxFramework\src\PwnBoxFramework\Memory\Memory.h(25,31): error C2039: 'string_view': is not a member of 'std'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\iostream(19): message : see declaration of 'std'
+D:\source\repos\PwnBoxFramework\PwnBoxFramework\src\PwnBoxFramework\Memory\Memory.h(25,43): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+D:\source\repos\PwnBoxFramework\PwnBoxFramework\src\PwnBoxFramework\Memory\Memory.h(25,43): error C2146: syntax error: missing ')' before identifier 'procName'
+D:\source\repos\PwnBoxFramework\PwnBoxFramework\src\PwnBoxFramework\Memory\Memory.h(25,43): error C3646: 'procName': unknown override specifier
+D:\source\repos\PwnBoxFramework\PwnBoxFramework\src\PwnBoxFramework\Memory\Memory.h(25,51): error C2059: syntax error: ')'
+D:\source\repos\PwnBoxFramework\PwnBoxFramework\src\PwnBoxFramework\Memory\Memory.h(26,47): error C2039: 'string_view': is not a member of 'std'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\iostream(19): message : see declaration of 'std'
+D:\source\repos\PwnBoxFramework\PwnBoxFramework\src\PwnBoxFramework\Memory\Memory.h(26,59): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+D:\source\repos\PwnBoxFramework\PwnBoxFramework\src\PwnBoxFramework\Memory\Memory.h(26,59): error C2146: syntax error: missing ')' before identifier 'moduleName'
+D:\source\repos\PwnBoxFramework\PwnBoxFramework\src\PwnBoxFramework\Memory\Memory.h(26,59): error C3646: 'moduleName': unknown override specifier
+D:\source\repos\PwnBoxFramework\PwnBoxFramework\src\PwnBoxFramework\Memory\Memory.h(26,69): error C2059: syntax error: ')'
+D:\source\repos\PwnBoxFramework\PwnBoxFramework\src\PwnBoxFramework\Memory\Memory.h(26,71): error C2143: syntax error: missing ';' before 'const'
+D:\source\repos\PwnBoxFramework\PwnBoxFramework\src\PwnBoxFramework\Memory\Memory.h(26,77): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+D:\source\repos\PwnBoxFramework\PwnBoxFramework\src\PwnBoxFramework\Memory\Memory.h(26,77): error C2059: syntax error: 'noexcept'
+D:\source\repos\PwnBoxFramework\PwnBoxFramework\src\PwnBoxFramework\Memory\Memory.h(26,85): error C2238: unexpected token(s) preceding ';'
+D:\source\repos\PwnBoxFramework\PwnBoxFramework\src\PwnBoxFramework\Memory\Memory.h(30,38): error C2039: 'string_view': is not a member of 'std'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\iostream(19): message : see declaration of 'std'
+D:\source\repos\PwnBoxFramework\PwnBoxFramework\src\PwnBoxFramework\Memory\Memory.h(30,50): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+D:\source\repos\PwnBoxFramework\PwnBoxFramework\src\PwnBoxFramework\Memory\Memory.h(30,50): error C2146: syntax error: missing ')' before identifier 'module'
+D:\source\repos\PwnBoxFramework\PwnBoxFramework\src\PwnBoxFramework\Memory\Memory.h(30,50): error C3646: 'module': unknown override specifier
+D:\source\repos\PwnBoxFramework\PwnBoxFramework\src\PwnBoxFramework\Memory\Memory.h(30,58): error C2062: type 'char' unexpected
+D:\source\repos\PwnBoxFramework\PwnBoxFramework\src\PwnBoxFramework\Memory\Memory.h(175,33): error C7525: inline variables require at least '/std:c++17'
